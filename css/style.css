@@ -68,7 +68,6 @@ html, body {
 .left {
     width: 40%;
     float: left;
-    display: inline-block;
     text-decoration: underline;
 }
 .right {
@@ -76,7 +75,6 @@ html, body {
     display: inline-block;
 }
 .right p {
-    display: inline-block;
     width: 33%;
     float: left;
 
