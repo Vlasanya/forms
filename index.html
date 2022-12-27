@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/_reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Lesson_8</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="./assets/img/1.jpeg" alt="LOgo" class="logo__img">
+            </div>
+            <h1 class="title_1">Form from Beetroot Academy by Anna Komarova</h1>
+            <!-- <div class="btns">
+                <button>Sign In</button>
+                <button>Sign Up</button>
+            </div> -->
+        </div>
+    </header>
+    <main class="main">
+        <div class="container_form">
+            <form action="#" method="POST" class="form">
+               
+                <article class="articles">
+                    <label for="user_name" class="left">First name</label>
+                     <input type="text" name="first_name" id="first_name" value="" placeholder="First name..." class="right">
+                </article>
+                
+                <article class="articles">
+                    <label for="user_name" class="left">Second name</label>
+                    <input type="text" name="second_name" id="second_name" value="" placeholder="Second name..." class="right">
+                </article>
+                
+                <article class="articles">
+                    <label for="birthday" class="left">Enter your date of birthday</label>
+                    <input type="date" id="birthday" name="birthday" class="right">
+                </article>
+
+                <article class="articles">
+                    <label for="email" class="left">Enter your email</label>
+                    <input type="email" id="email" name="email" class="right">
+                </article>
+                
+                <article class="articles">
+                    <p class="left">Enter your password</p>
+                    <input type="password" name="user_password" value="" placeholder="Enter your password" class="right">
+                </article>
+
+                <article class="articles">
+                    <p class="left">Repeat your password</p>
+                    <input type="password" name="user_password" value="" placeholder="Repeat your password one more time" class="right">
+                </article>
+
+                <article class="articles">
+                    <p class="left">Choose your gender</p>
+                    <div class="right">
+                        <p><input type="radio" name="Framework" value="male"> Male</p>
+                        <p><input type="radio" name="Framework" value="female"> Female</p>
+                        <p><input type="radio" name="Framework" value="other"> Other</p>
+                    </div>
+                </article>
+
+                <article class="articles">
+                    <label for="quantity" class="left">Your age</label>
+                    <input type="number" id="age" name="quantity" min="1" max="100" class="right">
+                </article>
+
+                <article class="articles">
+                    <p class="left">Choose your course</p>
+                    <select name="course" id="course" class="right">
+                        <option disabled selected>Your course</option>
+                        <option value="ukr">Front-End</option>
+                        <option value="pol">Back-End</option>
+                        <option value="eng">Project Management</option>
+                        <option value="eng">QA Manual</option>
+                    </select>
+                </article>
+
+                <article class="articles">
+                    <label for="message" class="left">Your address</label>
+                    <textarea name="message" id="address" cols="30" rows="10" class="right"></textarea>
+                </article>
+
+                <article class="articles">
+                    <label for=""><input type="checkbox" name="skills" value="vue"> </label>
+                    <p class="right">I agree to the processing my personal data</p>
+                </article>
+                <article class="articles">
+                    <input type="submit" value="Sign up" class="btn">
+                    <input type="reset" value="Clean form" class="btn">
+                </article>
+                
+            </form>
+
+        </div>
+        
+    </main>
+    
+</body>
+</html>
